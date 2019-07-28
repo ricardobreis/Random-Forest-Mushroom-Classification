@@ -9,7 +9,7 @@
 
 # LENDO OS DADOS
 path <- "C:/Users/Ricardo/Documents/R-Projetos/MushroomClassification/"
-base <- read.csv(paste0(path, "mushrooms.csv"), sep = ",")
+base <- read.csv(paste0(path, "dataset-mushrooms.csv"), sep = ",")
 
 summary(base)
 
